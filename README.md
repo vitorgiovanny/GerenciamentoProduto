@@ -20,7 +20,9 @@ WHERE OrderDate BETWEEN '2023-01-01' AND '2023-12-31' ORDER BY CustomerID; ``
 
 #### Explique a diferença entre os modos de carregamento Lazy, Eager e Explicit no Entity Framework. 
 **Eager** = usamos o Include para trazer todos os relacionamentos
+
 **Lazy**= dados do relacionamento é acessado
+
 **Explicit** = dados relacionados não são carregados automaticamente, ele é recomendavel quando voce quer selecionar qual relacionamento quer carregar na entidade.
 
 #### Descreva um cenário onde o uso de AsNoTracking() seria necessário e explique por que.
