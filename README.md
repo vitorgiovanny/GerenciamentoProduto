@@ -30,11 +30,10 @@ O uso de AsNoTracking() é essencial para não fazer o rastreamento determinada 
 Eu tenho as entidade Produto e crio uma variavel para fazer uma determinada consulta(no qual eu não quero fazer mudanças nelas). apenas consulta, porém logo abaixo dessa variável eu chamei outra variável de entidade de Produtos no qual eu quero fazer pequenas modificações, quando eu usar o saveChange, o EF ele vai salvar tanto a primeira variavel quanto o Segundo isso porque ele esta rastreável por isso nesse sentido eu uso AsNoTracking para não fazer o rastreamento dos relacionamentos dela.
 
 #### Explique a diferença entre arquitetura monolítica e arquitetura de microsserviços. 
-**Monolito:** Praticamente toda aplicação esta em um unico lugar até mesmo o frontend
+**Monolito:** Praticamente toda aplicação esta em um unico lugar até mesmo o frontend.
+
 **Microsserviços:** Praticamente é dividade entre serviços e cada um com sua responsabilidade.
 
-
-### O PROJETO
 
 ### O PROJETO
 
